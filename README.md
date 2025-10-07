@@ -1,5 +1,5 @@
 # DEC-keras-implementation
-Deep Embedding for protein clustering
+Deep Embedding for protein clustering based on https://github.com/XifengGuo/DEC-keras
 
 Environment
 - Python 3.6+ 

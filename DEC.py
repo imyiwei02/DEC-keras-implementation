@@ -8,6 +8,9 @@ Usage:
 
 Author:
     Xifeng Guo. 2017.1.30
+
+Update by Yiwei:
+    Support both older versions of Keras & TensorFlow 2.x 
 """
 
 from time import time
@@ -342,3 +345,4 @@ if __name__ == "__main__":
                      update_interval=update_interval, save_dir=args.save_dir)
     print('acc:', metrics.acc(y, y_pred))
     print('clustering time: ', (time() - t0))
+
